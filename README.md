@@ -1,16 +1,23 @@
-# calculadora_imc
+# ESTUDO EM FLUTTER
+### [DIO](https://web.dio.me/) - Santander Bootcamp 2023 - Mobile com Flutter
 
-A new Flutter project.
+## DESAFIO CALCULADORA IMC
 
-## Getting Started
+    O desafio é incrementar a Calculadora de IMC, agora aplicando a persistência de dados locais para salvar os dados de IMC.
 
-This project is a starting point for a Flutter application.
+## Checklist do Desafio
 
-A few resources to get you started if this is your first Flutter project:
+- Criar classe IMC (Peso / Altura)​
+- Altura ler em tela de Configurações​
+- Ler dados no app​
+- Calcular IMC
+- Gravar dados no Hive ou SQLite​
+- Exibir em uma lista​
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Pacotes utilizados
+- [brasil_fields](https://pub.dev/packages/brasil_fields) - Pacote para validação e formatação de campos padrões brasileiros
+- [Getx](https://pub.dev/packages/get) - Pacote para gerenciamento de estado
+- [sqflite](https://pub.dev/packages/sqflite) - Pacote para persistência de dados
+
